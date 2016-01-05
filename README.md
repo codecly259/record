@@ -11,3 +11,4 @@
 - [git在线入门书籍progit](http://git-scm.com/book/zh/v2) http://git-scm.com/book/zh/v2
 
 3.node.js
+- [nodejs官网](https://nodejs.org/en/)
