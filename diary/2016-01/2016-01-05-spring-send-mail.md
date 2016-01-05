@@ -99,6 +99,7 @@ mail.copy=ha.chuanchi@ustcinfo.com,zhong.jinkai@ustcinfo.com
 ```
 
 3.java类分别为
+SendMailUtil类：
 
 ```java
 package cn.com.starit.kanms.util.mail;
@@ -226,5 +227,134 @@ public class SendMailUtil {
  		SendMailUtil.sendFileMail(sendTo, copyTo, subject, body, files);
 	}
 }
+```
 
+ApplicationContextProvider类：
+
+```
+package cn.com.starit.commons.service;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+public class ApplicationContextProvider {
+	
+	private static ApplicationContext context = null;
+	
+	/**
+	 * 
+	 * @methodName 得到spring访问类
+	 * @return 
+	 * @author ymiao
+	 * @DateTime Aug 27, 2008 
+	 * @since 1.0.0
+	 */
+	public static ApplicationContext getContext(){
+		
+		if(context == null){
+			
+			initContext(null);
+		}
+		
+		return context;
+	}
+	
+	/**
+	 * 
+	 * @methodName 得到spring访问类
+	 * @param contextFilePath 配置文件名称
+	 * @return
+	 * @author ymiao
+	 * @DateTime Aug 27, 2008
+	 * @since 1.0.0
+	 */
+	public static ApplicationContext getContext(String contextFilePath){
+		if(context == null)
+			initContext(contextFilePath);
+		return context;
+	}
+	
+
+	
+	/**
+	 * @methodName 得到实列bean
+	 * @param beanName Bean名称
+	 * @return
+	 * @author ymiao
+	 * @DateTime Aug 27, 2008
+	 * @since 1.0.0
+	 */
+	public static Object getBean(String beanName)
+	{
+		return getContext().getBean(beanName);		
+	}
+	
+	/**
+	 * @methodName 得到实列bean
+	 * @param beanName Bean名称
+	 * @param clsType Bean 类
+	 * @return
+	 * @author ymiao
+	 * @DateTime Aug 27, 2008
+	 * @since 1.0.0
+	 */
+	public static Object getBean(String beanName, Class clsType)
+	{
+		return getContext().getBean(beanName, clsType);
+	}
+	
+	/**
+	 * 
+	 * @methodName:初始化spring
+	 * @param contextFilePath
+	 * @author ymiao
+	 * @DateTime Aug 27, 2008
+	 * @since 1.0.0
+	 */
+	private static void initContext(String contextFilePath){
+			if(contextFilePath == null)
+				contextFilePath = "applicationContext.xml";
+			context = new ClassPathXmlApplicationContext(contextFilePath);		
+	}
+}
+```
+
+CustomizedPropertyPlaceholderConfigurer类：
+
+```
+package cn.com.starit.kanms.util;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
+
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
+import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
+
+public class CustomizedPropertyPlaceholderConfigurer extends
+		PropertyPlaceholderConfigurer {
+
+	private static Map<String, Object> ctxPropertiesMap;
+
+	@Override
+	protected void processProperties(
+			ConfigurableListableBeanFactory beanFactoryToProcess,
+			Properties props) throws BeansException {
+		
+		super.processProperties(beanFactoryToProcess, props);
+		ctxPropertiesMap = new HashMap<String, Object>();
+		for (Object key : props.keySet()) {
+			String keyStr = key.toString();
+			String value = props.getProperty(keyStr);
+			ctxPropertiesMap.put(keyStr, value);
+		}
+	}
+
+	public static Object getContextProperty(String name) {
+		return ctxPropertiesMap.get(name);
+	}
+
+}
 ```
