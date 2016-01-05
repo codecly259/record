@@ -21,8 +21,8 @@ tags : [linux,oracle,boot]
 	```shell
 	# vim /etc/oratab
 	```
-	将oracle:/opt/oracle/app/product/11.2.0/dbhome_1:N 改为`oracle:/opt/oracle/app/product/11.2.0/dbhome_1:Y`
-	其中：oracle为实例名；/opt/oracle/app/product/11.2.0/dbhome_1为oracle的安装路径，会因安装的情况不同而有所不同。如下图所示：
+	将oracle:/opt/oracle/app/product/11.2.0/dbhome_1:N 改为`oracle:/opt/oracle/app/product/11.2.0/dbhome_1:Y`  
+	其中：oracle为实例名；/opt/oracle/app/product/11.2.0/dbhome_1为oracle的安装路径，会因安装的情况不同而有所不同。如下图所示：  
 	![01-05-01-oratab](../images/01-05-01-oratab.png)
 
 3. 更改启动配置文件`/etc/rc.d/rc.local`文件
