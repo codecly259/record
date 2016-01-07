@@ -3,7 +3,7 @@ layout: post
 title: java web项目使用CORS方法实现跨域请求方案
 category : dialy
 tagline: "use CORS to cross domain request"
-tags : [linux,oracle,boot]
+tags : [java,ajax,cors]
 ---
 {% include JB/setup %}
 
@@ -120,6 +120,19 @@ web.xml中添加过滤器的配置
 </filter-mapping>
 ```
 
+加上以上代码后，使用原来的ajax访问跨域服务端信息的`Response Header`如下：
+
+```javascript
+Access-Control-Allow-Headers:x-requested-with
+Access-Control-Allow-Methods:POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Origin:*
+Access-Control-Max-Age:3600
+Content-Type:application/json;charset=UTF-8
+Server:Jetty(8.1.10.v20130312)
+Transfer-Encoding:chunked
+```
+
+并且可以通过ajax访问跨域服务器的资源了，大功告成。
 
 ## 更多阅读
 1. [CORS维基百科](https://zh.wikipedia.org/wiki/%E8%B7%A8%E4%BE%86%E6%BA%90%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB)
