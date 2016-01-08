@@ -16,3 +16,4 @@
 4.snmp，简单网络管理协议（Simple Network Management Protocol）
 - [snmp4j](http://www.snmp4j.org/)
 - [snmp for spring](http://spring-snmp.sourceforge.net/)
+- [Introduction to snmp4j](http://www.jayway.com/2010/05/21/introduction-to-snmp4j/)
