@@ -19,6 +19,6 @@
 - [Introduction to snmp4j](http://www.jayway.com/2010/05/21/introduction-to-snmp4j/)
 
 5.java日志框架
-- [log4j，Apache开源日志框架](https://logging.apache.org/log4j/1.2/)
-- [log4j2，log4j的升级版，内部代码有很大部分重构](https://logging.apache.org/log4j/2.x/)
-- [slf4j简单日志门面，主要定义日志的接口](http://www.slf4j.org/)
+- [log4j：Apache开源日志框架](https://logging.apache.org/log4j/1.2/)
+- [log4j2：log4j的升级版，内部代码有很大部分重构](https://logging.apache.org/log4j/2.x/)
+- [slf4j：简单日志门面，主要定义日志的接口](http://www.slf4j.org/)
