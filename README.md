@@ -12,3 +12,7 @@
 
 3.node.js
 - [nodejs官网](https://nodejs.org/en/)
+
+4.snmp，简单网络管理协议（Simple Network Management Protocol）
+- [snmp4j](http://www.snmp4j.org/) http://www.snmp4j.org/
+- [snmp for spring](http://spring-snmp.sourceforge.net/) http://spring-snmp.sourceforge.net/
