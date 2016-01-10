@@ -5,4 +5,4 @@
 
 用勇气改变可以改变的，用胸怀接受不能改变的，用智慧分辨二者。——李开复
 
-＞ Talk is cheap.Show me the code.
+> Talk is cheap.Show me the code.
