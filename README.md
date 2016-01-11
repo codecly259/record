@@ -31,3 +31,5 @@
 - [Play Framework 2.0几宗罪](http://www.bloggern.com/7069.html)
 - [被Play framework狠狠的play了一把](http://www.cnblogs.com/errorx/p/4780763.html?utm_source=tuicool)
 - [致Play Framework开发者们的一封信](http://blog.jobbole.com/16631/) : [英文原文地址](https://groups.google.com/forum/#!topic/play-framework/AcZs8GXNWUc/discussion)
+
+鉴于网上对play2.x的说法， play2.x可能更适合于scala的开发，而不适合java的开发。而且github上play1的仓库最近一个月(2016-01)还是有更新的， 准备学习目前play1.x的最新版本1.4.1
