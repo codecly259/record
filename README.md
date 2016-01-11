@@ -26,6 +26,7 @@
 ## 观望的技术或项目
 1.play框架，网上很多赞美play1.x和吐槽2.x的文章，在国内不是很流行
 - [play framework官网](https://www.playframework.com/)
-- [play framework中文小站](http://play-framework.herokuapp.com/): 只有play framework 1.x 的一些翻译文档。
+- [play framework中文小站](http://play-framework.herokuapp.com/): 只有play framework 1.x的相关文档。
+- [Play!China社区](http://www.playframework.cn/) : 同样只有play framework1.x版本的相关文档
 - [Play Framework 2.0几宗罪](http://www.bloggern.com/7069.html)
 - [被Play framework狠狠的play了一把](http://www.cnblogs.com/errorx/p/4780763.html?utm_source=tuicool)
