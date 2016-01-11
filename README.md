@@ -30,3 +30,4 @@
 - [Play!China社区](http://www.playframework.cn/) : 同样只有play framework1.x版本的相关文档
 - [Play Framework 2.0几宗罪](http://www.bloggern.com/7069.html)
 - [被Play framework狠狠的play了一把](http://www.cnblogs.com/errorx/p/4780763.html?utm_source=tuicool)
+- [致Play Framework开发者们的一封信](http://blog.jobbole.com/16631/) : [英文原文地址](https://groups.google.com/forum/#!topic/play-framework/AcZs8GXNWUc/discussion)
