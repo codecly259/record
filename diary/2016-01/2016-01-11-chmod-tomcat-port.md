@@ -37,9 +37,11 @@ tags : [java,tomcat]
 ```
 修改其中的`port="8005"`为其他端口，如：`port="8006"`
 
+确定修改后的端口没有其他地方使用的，修改以上端口后重启启动tomcat即可
 ## tomcat server结构图
 ![tocmcat-srartup](../images/01-11-01-tomcat-startup.gif)
 
 ## 更多阅读
 1. [Tomcat Server.xml详解](http://www.cnblogs.com/gugnv/archive/2012/02/01/2334187.html)
+2. [当装了两个tomcat后，如何修改tomcat端口](http://blog.csdn.net/alongwilliam/article/details/8199974)
 
