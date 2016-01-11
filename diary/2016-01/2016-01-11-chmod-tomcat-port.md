@@ -42,4 +42,5 @@ tags : [java,tomcat]
 
 ## 更多阅读
 1. [Tomcat Server.xml详解](http://www.cnblogs.com/gugnv/archive/2012/02/01/2334187.html)
+2. [当装了两个tomcat后，如何修改tomcat端口](http://blog.csdn.net/alongwilliam/article/details/8199974)
 
