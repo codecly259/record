@@ -41,3 +41,18 @@
 2.openShift
 - [openShift官网应用管理控制台](https://openshift.redhat.com/app/console/applications)
 - [openShift使用方法介绍](http://www.live-in.org/archives/1818.html)
+
+## 数据库
+1.oracle
+
+2.mysql
+
+3.mariaDB
+
+4.Postgres sql
+
+5.sqlite
+
+6.nosql
+- MongoDB
+- redis
