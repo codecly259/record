@@ -38,3 +38,6 @@
 ## 云平台
 1.heroku
 
+2.openShift
+- [openShift官网应用管理控制台](https://openshift.redhat.com/app/console/applications)
+- [openShift使用方法介绍](http://www.live-in.org/archives/1818.html)
