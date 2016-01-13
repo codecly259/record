@@ -59,6 +59,10 @@
 - MongoDB
 - redis
 
+7.H2 DataBase:纯java开发的轻量级内嵌数据库
+- [H2 DataBase官网](http://www.h2database.com/html/main.html)
+
+
 ## 测试
 1.JUnit：java单元测试框架
 - [JUnit官网](http://junit.org/)
