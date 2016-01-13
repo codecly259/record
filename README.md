@@ -56,3 +56,12 @@
 6.nosql
 - MongoDB
 - redis
+
+## 测试
+1.JUnit：java单元测试框架
+- [JUnit官网](http://junit.org/)
+
+2.Selenium：
+- [Selenium官网(*需要翻墙*)](http://www.seleniumhq.org/)
+- [Selenium Tutorial - Get started using Java](https://www.airpair.com/selenium/posts/selenium-tutorial-with-java)
+- [我们常用的功能自动化测试工具 **Selenium篇**](http://www.51testing.com/zhuanti/selenium.html)
