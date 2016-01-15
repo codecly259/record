@@ -22,3 +22,52 @@
 - [log4j：Apache开源日志框架](https://logging.apache.org/log4j/1.2/)
 - [log4j2：log4j的升级版，内部代码有很大部分重构](https://logging.apache.org/log4j/2.x/)
 - [slf4j：简单日志门面，主要定义日志的接口](http://www.slf4j.org/)
+
+## 观望的技术或项目
+1.play框架，网上很多赞美play1.x和吐槽2.x的文章，在国内不是很流行
+- [play framework官网](https://www.playframework.com/)
+- [play framework中文小站](http://play-framework.herokuapp.com/): 只有play framework 1.x的相关文档。
+- [Play!China社区](http://www.playframework.cn/) : 同样只有play framework1.x版本的相关文档
+- [Play Framework 2.0几宗罪](http://www.bloggern.com/7069.html)
+- [被Play framework狠狠的play了一把](http://www.cnblogs.com/errorx/p/4780763.html?utm_source=tuicool)
+- [致Play Framework开发者们的一封信](http://blog.jobbole.com/16631/) : [英文原文地址](https://groups.google.com/forum/#!topic/play-framework/AcZs8GXNWUc/discussion)
+
+鉴于网上对play2.x的说法， play2.x可能更适合于scala的开发，而不那么适合java的开发。而且github上[play1](https://github.com/playframework/play1)的仓库最近一个月(2016-01)还是有更新的， 准备学习目前play1.x的最新版本1.4.1
+
+
+## 云平台
+1.heroku
+- [heroku官网](https://www.heroku.com)
+- [heroku官网个人控制台](https://dashboard.heroku.com/apps)
+
+2.openShift
+- [openShift官网应用管理控制台](https://openshift.redhat.com/app/console/applications)
+- [openShift使用方法介绍](http://www.live-in.org/archives/1818.html)
+
+## 数据库
+1.oracle
+
+2.mysql
+
+3.mariaDB
+
+4.Postgres sql
+
+5.sqlite
+
+6.nosql
+- MongoDB
+- redis
+
+7.H2 DataBase:纯java开发的轻量级内嵌数据库
+- [H2 DataBase官网](http://www.h2database.com/html/main.html)
+
+
+## 测试
+1.JUnit：java单元测试框架
+- [JUnit官网](http://junit.org/)
+
+2.Selenium：一个用于web自动化测试的工具集
+- [Selenium官网(*需要翻墙*)](http://www.seleniumhq.org/)
+- [Selenium Tutorial - Get started using Java](https://www.airpair.com/selenium/posts/selenium-tutorial-with-java)
+- [我们常用的功能自动化测试工具 **Selenium篇**](http://www.51testing.com/zhuanti/selenium.html)
