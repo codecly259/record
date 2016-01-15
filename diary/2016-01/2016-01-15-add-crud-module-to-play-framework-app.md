@@ -46,6 +46,13 @@ play play idealize
 4.IDE中(eclipse)刷新项目，crud的相关包和配置文件已加入项目  
 ![01-15-01-crud-imported.png](../images/01-15-01-crud-imported.png)
 
+5.在应用中添加crud模块的route路由
+```
+{app}/config/routes
+===================
+# Import CRUD routes
+*     	/admin           						module:crud
+```
 
 
 ## 更多阅读
