@@ -44,7 +44,7 @@ play play idealize
 ```
 
 4.IDE中(eclipse)刷新项目，crud的相关包和配置文件已加入项目
-![01-15-01-crud-imported.png](../01-15-01-crud-imported.png)
+![01-15-01-crud-imported.png](..images/01-15-01-crud-imported.png)
 
 ## 更多阅读
 1. [Play 框架模块：Divide 和 conquer](http://www.oschina.net/translate/play-framework-modules-divide-and-conquer?cmp&p=1)
