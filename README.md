@@ -50,6 +50,7 @@
 
 4.Cloud Foundry
 - [Pivotal Cloud Foundry官网](http://pivotal.io/platform)
+- [Cloud Foundry 中文基础文档](http://cloudfoundry-doc.csdn.net/)
 
 ## 数据库
 1.oracle
