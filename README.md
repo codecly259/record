@@ -44,6 +44,13 @@
 - [openShift官网应用管理控制台](https://openshift.redhat.com/app/console/applications)
 - [openShift使用方法介绍](http://www.live-in.org/archives/1818.html)
 
+3.playframework cloud
+- [playframework cloud官网](http://playframework-cloud.com/en)
+- [playframework cloud的父产品clear cloud个人控制台](https://console.clever-cloud.com/users/me/information)
+
+4.Cloud Foundry
+- [Pivotal Cloud Foundry官网](http://pivotal.io/platform)
+
 ## 数据库
 1.oracle
 
