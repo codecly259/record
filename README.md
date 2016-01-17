@@ -82,4 +82,4 @@
 
 ## 社区
 1.Infoq
-- [infoq中文站]（http://www.infoq.com/cn/）
+- [infoq中文站](http://www.infoq.com/cn/)
