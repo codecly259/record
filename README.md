@@ -79,3 +79,7 @@
 - [Selenium官网(*需要翻墙*)](http://www.seleniumhq.org/)
 - [Selenium Tutorial - Get started using Java](https://www.airpair.com/selenium/posts/selenium-tutorial-with-java)
 - [我们常用的功能自动化测试工具 **Selenium篇**](http://www.51testing.com/zhuanti/selenium.html)
+
+## 社区
+1.Infoq
+- [infoq中文站]（http://www.infoq.com/cn/）
