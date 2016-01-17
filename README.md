@@ -83,3 +83,9 @@
 ## 社区
 1.Infoq
 - [infoq中文站](http://www.infoq.com/cn/)
+
+## h5手机应用开发
+1.h5应用调试
+- [移动端H5APP开发调试之Chrome远程调试](http://my.oschina.net/qinerg/blog/519302)
+- [Web移动应用调试工具——Weinre](http://blog.csdn.net/dojotoolkit/article/details/6280924)
+- [weinre官网](http://people.apache.org/~pmuellr/weinre-docs/latest/)
