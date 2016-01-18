@@ -99,4 +99,4 @@
 - [Mozilla SpiderMonkey开发文章地址](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey)
 - [github 源码仓库地址](https://github.com/mozilla/gecko-dev/tree/master/js)
 - [功能强大的JavaScript引擎--SpiderMonkey](http://www.ibm.com/developerworks/cn/linux/shell/js/js_engine/)
-- [mozilla on github](https://wiki.mozilla.org/Github)
+- [the "mozilla" organization on github](https://wiki.mozilla.org/Github)
