@@ -91,6 +91,6 @@
 - [weinre官网](http://people.apache.org/~pmuellr/weinre-docs/latest/)
 
 ## javascript引擎
-1.Chrome V8 
+1.Chrome V8 : Google's high performance, open source, JavaScript engine. 
 - [Chrome v8 官方文档与介绍](https://developers.google.com/v8/)
 - [github源码仓库地址](https://github.com/v8/v8)
