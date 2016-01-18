@@ -94,3 +94,8 @@
 1.Chrome V8 : Google's high performance, open source, JavaScript engine. 
 - [Chrome v8 官方文档与介绍](https://developers.google.com/v8/)
 - [github源码仓库地址](https://github.com/v8/v8)
+
+2.SpiderMonkey : Mozilla开源javascript引擎
+- [Mozilla SpiderMonkey开发文章地址](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey)
+- [github 源码仓库地址](https://github.com/mozilla/gecko-dev/tree/master/js)
+- [功能强大的JavaScript引擎--SpiderMonkey](http://www.ibm.com/developerworks/cn/linux/shell/js/js_engine/)
