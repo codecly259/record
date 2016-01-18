@@ -89,3 +89,8 @@
 - [移动端H5APP开发调试之Chrome远程调试](http://my.oschina.net/qinerg/blog/519302)
 - [Web移动应用调试工具——Weinre](http://blog.csdn.net/dojotoolkit/article/details/6280924)
 - [weinre官网](http://people.apache.org/~pmuellr/weinre-docs/latest/)
+
+## javascript引擎
+1.Chrome V8 
+- [Chrome v8 官方文档与介绍](https://developers.google.com/v8/)
+- [github源码仓库地址](https://github.com/v8/v8)
