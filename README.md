@@ -106,3 +106,4 @@
 1.ruby
 - [ruby中文官网（表面上是中文）](http://www.ruby-lang.org/zh_cn/)
 - [Why’s (Poignant) Guide to Ruby](http://poignant.guide/)
+- [Why The Lucky Stiff : 上本ruby入门书作者的博客](http://whytheluckystiff.net/)
