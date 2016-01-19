@@ -107,3 +107,8 @@
 - [ruby中文官网（表面上是中文）](http://www.ruby-lang.org/zh_cn/)
 - [Why’s (Poignant) Guide to Ruby](http://poignant.guide/)
 - [Why The Lucky Stiff : 上本ruby入门书作者的博客](http://whytheluckystiff.net/)
+
+
+## meteor：js网络全栈框架
+- win8 使用meteor run 启动项目报错：添加tasklist.exe所有目录到环境变量（path:C:\Windows\System32）
+[Win XP Error: Couldn't run tasklist.exe (when meteor run)](https://github.com/meteor/meteor/issues/4128)
