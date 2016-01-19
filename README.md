@@ -100,3 +100,9 @@
 - [github 源码仓库地址](https://github.com/mozilla/gecko-dev/tree/master/js)
 - [功能强大的JavaScript引擎--SpiderMonkey](http://www.ibm.com/developerworks/cn/linux/shell/js/js_engine/)
 - [the "mozilla" organization on github](https://wiki.mozilla.org/Github)
+- 
+
+## ruby相关
+1.ruby
+- [ruby中文官网（表面上是中文）](http://www.ruby-lang.org/zh_cn/)
+- [Why’s (Poignant) Guide to Ruby](http://poignant.guide/)
