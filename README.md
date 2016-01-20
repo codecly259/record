@@ -60,6 +60,8 @@
 3.mariaDB
 
 4.Postgres sql
+- [postgres sql 官网](http://www.postgresql.org/)
+- 默认端口：5432,默认database:postgres 默认管理员账号：postgres ， 密码安装时设置
 
 5.sqlite
 
