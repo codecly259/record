@@ -44,6 +44,14 @@
 - [openShift官网应用管理控制台](https://openshift.redhat.com/app/console/applications)
 - [openShift使用方法介绍](http://www.live-in.org/archives/1818.html)
 
+3.playframework cloud
+- [playframework cloud官网](http://playframework-cloud.com/en)
+- [playframework cloud的父产品clear cloud个人控制台](https://console.clever-cloud.com/)
+
+4.Cloud Foundry
+- [Pivotal Cloud Foundry官网](http://pivotal.io/platform)
+- [Cloud Foundry 中文基础文档](http://cloudfoundry-doc.csdn.net/)
+
 ## 数据库
 1.oracle
 
@@ -52,6 +60,8 @@
 3.mariaDB
 
 4.Postgres sql
+- [postgres sql 官网](http://www.postgresql.org/)
+- 默认端口：5432,默认database:postgres 默认管理员账号：postgres ， 密码安装时设置
 
 5.sqlite
 
@@ -71,3 +81,37 @@
 - [Selenium官网(*需要翻墙*)](http://www.seleniumhq.org/)
 - [Selenium Tutorial - Get started using Java](https://www.airpair.com/selenium/posts/selenium-tutorial-with-java)
 - [我们常用的功能自动化测试工具 **Selenium篇**](http://www.51testing.com/zhuanti/selenium.html)
+
+## 社区
+1.Infoq
+- [infoq中文站](http://www.infoq.com/cn/)
+
+## h5手机应用开发
+1.h5应用调试
+- [移动端H5APP开发调试之Chrome远程调试](http://my.oschina.net/qinerg/blog/519302)
+- [Web移动应用调试工具——Weinre](http://blog.csdn.net/dojotoolkit/article/details/6280924)
+- [weinre官网](http://people.apache.org/~pmuellr/weinre-docs/latest/)
+
+## javascript引擎
+1.Chrome V8 : Google's high performance, open source, JavaScript engine. 
+- [Chrome v8 官方文档与介绍](https://developers.google.com/v8/)
+- [github源码仓库地址](https://github.com/v8/v8)
+
+2.SpiderMonkey : Mozilla开源javascript引擎
+- [Mozilla SpiderMonkey开发文章地址](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey)
+- [github 源码仓库地址](https://github.com/mozilla/gecko-dev/tree/master/js)
+- [功能强大的JavaScript引擎--SpiderMonkey](http://www.ibm.com/developerworks/cn/linux/shell/js/js_engine/)
+- [the "mozilla" organization on github](https://wiki.mozilla.org/Github)
+- 
+
+## ruby相关
+1.ruby
+- [ruby中文官网（表面上是中文）](http://www.ruby-lang.org/zh_cn/)
+- [Why’s (Poignant) Guide to Ruby](http://poignant.guide/)
+- [Why The Lucky Stiff : 上本ruby入门书作者的博客](http://whytheluckystiff.net/)
+
+
+## meteor：js网络全栈框架
+- win8 使用meteor run 启动项目报错：添加tasklist.exe所有目录到环境变量（path:C:\Windows\System32）
+[Win XP Error: Couldn't run tasklist.exe (when meteor run)](https://github.com/meteor/meteor/issues/4128)
+- [meteor官网](https://www.meteor.com/)
