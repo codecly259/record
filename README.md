@@ -112,6 +112,6 @@
 
 
 ## meteor：js网络全栈框架
-- win8 使用meteor run 启动项目报错：添加tasklist.exe所有目录到环境变量（path:C:\Windows\System32）
+- win8 使用meteor run 启动项目报错：添加tasklist.exe所在目录到环境变量（path:C:\Windows\System32）
 [Win XP Error: Couldn't run tasklist.exe (when meteor run)](https://github.com/meteor/meteor/issues/4128)
 - [meteor官网](https://www.meteor.com/)
