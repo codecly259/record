@@ -27,7 +27,7 @@ ls -lh catalina.out
 ```
 - 根据显示的信息及时间然后定位需要查看的日志内容，如查看上面第一次出现后的200行日志
 ```sh
-sed -n "65393183,65393383p" catalina.out
+[kanms@kanms-web logs]$ sed -n "65393183,65393383p" catalina.out
 [kanms-eleManage]  『带附件和图片的邮件发送失败！！！』  (线程名：pool-8-thread-1) cn.com.starit.kanms.util.mail.SendMailUtil(SendMailUtil.java:81) 2016-02-02 00:00:02,616
 org.springframework.mail.MailSendException: Mail server connection failed; nested exception is javax.mail.MessagingException: Unknown SMTP host: mail.ustcinfo.com;
   nested exception is:
