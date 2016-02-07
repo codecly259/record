@@ -108,7 +108,7 @@
 1.ruby
 - [ruby中文官网（表面上是中文）](http://www.ruby-lang.org/zh_cn/)
 - [Why’s (Poignant) Guide to Ruby](http://poignant.guide/)
-- [Why The Lucky Stiff : 上本ruby入门书作者的博客](http://whytheluckystiff.net/)
+- [Why The Lucky Stiff : 上本ruby入门书作者的博客](http://whytheluckystiff.net/) [中文版点击这里(还在翻译中...)](http://codecly259.github.io/poignant-guide-cn/)
 
 
 ## meteor：js网络全栈框架
