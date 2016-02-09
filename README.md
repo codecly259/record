@@ -115,3 +115,11 @@
 - win8 使用meteor run 启动项目报错：添加tasklist.exe所在目录到环境变量（path:C:\Windows\System32）
 [Win XP Error: Couldn't run tasklist.exe (when meteor run)](https://github.com/meteor/meteor/issues/4128)
 - [meteor官网](https://www.meteor.com/)
+
+## 操作系统(Unix-like Operating System)
+1.Linux
+
+2.BSD
+- [NetBSD官网](https://www.netbsd.org/)
+- [FreeBSD官网](http://www.freebsd.org/)
+- [OpenBSD官网](http://www.openbsd.org/)
