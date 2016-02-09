@@ -118,6 +118,7 @@
 
 ## 操作系统(Unix-like Operating System)
 1.Linux
+- [Linux官网](http://www.linux.org/)
 
 2.BSD
 - [NetBSD官网](https://www.netbsd.org/)
