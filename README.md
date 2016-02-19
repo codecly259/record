@@ -135,3 +135,16 @@
 4.readthedocs
 
 5.看云
+
+## 搭建博客系统
+1.php博客系统
+- wordpress
+- typecho
+
+2.java博客系统
+- solo
+
+3.静态博客
+- [jekyll:使用ruby开发的静态博客生成工具](http://jekyllrb.com/)
+- [octopress:基于jekyll的静态博客构建框架](http://octopress.org/)
+- [hexo:简单、快速、强大的Node.js静态博客框架](https://hexo.io/)
