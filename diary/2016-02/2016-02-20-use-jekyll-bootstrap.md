@@ -2,8 +2,8 @@
 layout: post
 title: 快速使用jekyll bootstrap主题
 category : dialy
-tagline: "common git command line"
-tags : [git]
+tagline: "jekyll bootstrap"
+tags : [jekyll bootstrap]
 ---
 
 本文介绍jekyll搭建基于jekyll-bootstrap主题的静态博客
@@ -33,10 +33,17 @@ jekyll serve
 > 首先确认rake没有问题，我在安装的时候就报错`can not load file ...`，经查找没有安装rake编译模块。
 > 使用`gem install rake`进行安装
 
+#### 使用git地址安装
 ```
 rake theme:install git="https://github.com/jekyllbootstrap/theme-the-program.git"
 ```
 安装完成后会提示是否使用此主题，输入`Y`回车使用该主题。
+
+#### 下载压缩包后安装
+在网上下载主题的并解压到`./_theme_packages`目录下
+```
+rake theme:install name="theme-name"
+```
 
 ### 切换主题
 主题安装后,也可以通过`rake`在主题间进行切换
