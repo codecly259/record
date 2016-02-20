@@ -44,5 +44,12 @@ rake theme:install git="https://github.com/jekyllbootstrap/theme-the-program.git
 rake theme:switch name="the-program"
 ```
 
+## 更多阅读
+
+- [jekyll 官方文档](http://jekyllrb.com/docs/home/)
+- [bootstrap中文团队翻译的jekyll文档](http://jekyll.bootcss.com/docs/home/)
+- [The Quickest Way to Blog on GitHub Pages](http://jekyllbootstrap.com/)
+- [上面网站的`Using Themes`部分](http://jekyllbootstrap.com/usage/jekyll-theming.html)
+
 
 
