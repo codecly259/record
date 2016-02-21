@@ -10,7 +10,7 @@ tags : [jekyll bootstrap]
 
 ## 本地运行jekyll-bootstrap
 
-> 首先请确认本地已安装好jekyll相关环境：包括git,ruby,rubygem,python,highlight,jekyll等
+> 首先请确认本地已安装好jekyll相关环境：包括git,ruby,rubygem,python,pygments,jekyll等
 
 在github上下载jekyll-bootstrap并使用jekyll本地运行
 
