@@ -6,6 +6,9 @@ tagline: "socialize comment system"
 tags : [唐人街探案,影评]
 ---
 
+* TOC
+{:toc}
+
 电影`唐人街探案`中的一些对白和场景
 
 1. 最后神探小结巴（当然此时已经不结巴了）和"腹黑"小萝莉的对话
