@@ -19,8 +19,8 @@ redis官方支持类unix（linux和mac）系统，在Linux和mac中使用只要按官方文档来即可。
 # 快速开始：
 
 ```
-wget https://github.com/MSOpenTech/redis/releases/download/win-2.8.2400/Redis-x64-2.8.2400.zip #下载，命令不一定可用，只是为了说明要下载文件
-rar x-t-o-p Redis-x64-2.8.2400.zip   #解压，命令不一定可用，只是为了说明需要解压
+wget https://github.com/MSOpenTech/redis/releases/download/win-2.8.2400/Redis-x64-2.8.2400.zip #下载
+rar x-t-o-p Redis-x64-2.8.2400.zip   #解压
 cd Redis-x64-2.8.2400            #到redis目录
 redis-server redis.windows.conf  #启动服务，需要先修改配置文件，要不然会出错
 redis-cli -h ${ip} -p ${port}    #客户端连接，ip默认为127.0.0.1，port默认为6379
