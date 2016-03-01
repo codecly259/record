@@ -1,36 +1,107 @@
 ---
 layout: post
-title: ÔÚwindows²Ù×÷ÏµÍ³ÖÐÊ¹ÓÃredis
-description: redis¹Ù·½Ö§³ÖÀàunix£¨linuxºÍmac£©ÏµÍ³£¬ÔÚLinuxºÍmacÖÐÊ¹ÓÃÖ»Òª°´¹Ù·½ÎÄµµÀ´¼´¿É¡£µ«ÊÇ¹Ù·½²»Ö§³Öwindows²Ù×÷ÏµÍ³£¬Ö»ÊÇÎ¢Èí¿ªÔ´¼¼Êõ×éÖ¯()Microsoft Open Tech group)ÔÚGithub¿ª·¢ÁËÒ»¸öwin64µÄredis°æ±¾¡£
+title: åœ¨windowsæ“ä½œç³»ç»Ÿä¸­ä½¿ç”¨redis
+description: rediså®˜æ–¹æ”¯æŒç±»unixï¼ˆlinuxå’Œmacï¼‰ç³»ç»Ÿï¼Œåœ¨Linuxå’Œmacä¸­ä½¿ç”¨åªè¦æŒ‰å®˜æ–¹æ–‡æ¡£æ¥å³å¯ã€‚ä½†æ˜¯å®˜æ–¹ä¸æ”¯æŒwindowsæ“ä½œç³»ç»Ÿï¼Œåªæ˜¯å¾®è½¯å¼€æºæŠ€æœ¯ç»„ç»‡()Microsoft Open Tech group)åœ¨Githubå¼€å‘äº†ä¸€ä¸ªwin64çš„redisç‰ˆæœ¬ã€‚
 category: technology
 tags: [windows,redis]
 ---
 {% include JB/setup %}
 
-redis¹Ù·½²»Ö§³ÖwindowsÏµÍ³£¬¹ÙÍøÉÏµÄÃèÊöÎª£º
+* TOC
+{:toc}
+
+rediså®˜æ–¹ä¸æ”¯æŒwindowsç³»ç»Ÿï¼Œå®˜ç½‘ä¸Šçš„æè¿°ä¸ºï¼š
 
 >The Redis project does not officially support Windows. However, the Microsoft Open Tech group develops and maintains this Windows port targeting Win64
 
-´óÒâÎª£ºredis¹Ù·½ÊÇ²»Ö§³ÖwindowsµÄ¡£µ«ÊÇ£¬Î¢Èí¿ªÔ´¼¼Êõ×éÖ¯Îªwin64ÓÃ»§¿ª·¢²¢Î¬»¤Õâ¸öwindows°æ±¾¡£ÒªÁË½â¸ü¶à£¬Çë¿´[ÏîÄ¿µØÖ·](https://github.com/MSOpenTech/redis)
+å¤§æ„ä¸ºï¼šrediså®˜æ–¹æ˜¯ä¸æ”¯æŒwindowsçš„ã€‚ä½†æ˜¯ï¼Œå¾®è½¯å¼€æºæŠ€æœ¯ç»„ç»‡ä¸ºwin64ç”¨æˆ·å¼€å‘å¹¶ç»´æŠ¤è¿™ä¸ªwindowsç‰ˆæœ¬ã€‚è¦äº†è§£æ›´å¤šï¼Œè¯·çœ‹[é¡¹ç›®åœ°å€](https://github.com/MSOpenTech/redis)
 
-redis¹Ù·½Ö§³ÖÀàunix£¨linuxºÍmac£©ÏµÍ³£¬ÔÚLinuxºÍmacÖÐÊ¹ÓÃÖ»Òª°´¹Ù·½ÎÄµµÀ´¼´¿É¡£
-µ«ÊÇ¹Ù·½²»Ö§³Öwindows²Ù×÷ÏµÍ³£¬Ö»ÊÇÎ¢Èí¿ªÔ´¼¼Êõ×éÖ¯()Microsoft Open Tech group)ÔÚGithub¿ª·¢ÁËÒ»¸öwin64µÄredis°æ±¾¡£
+rediså®˜æ–¹æ”¯æŒç±»unixï¼ˆlinuxå’Œmacï¼‰ç³»ç»Ÿï¼Œåœ¨Linuxå’Œmacä¸­ä½¿ç”¨åªè¦æŒ‰å®˜æ–¹æ–‡æ¡£æ¥å³å¯ã€‚
+ä½†æ˜¯å®˜æ–¹ä¸æ”¯æŒwindowsæ“ä½œç³»ç»Ÿï¼Œåªæ˜¯å¾®è½¯å¼€æºæŠ€æœ¯ç»„ç»‡(Microsoft Open Tech group)åœ¨Githubå¼€å‘äº†ä¸€ä¸ªwin64çš„redisç‰ˆæœ¬ã€‚
 
-# ¿ìËÙ¿ªÊ¼£º
+## å¿«é€Ÿå¼€å§‹ï¼š
 
 ```
-wget https://github.com/MSOpenTech/redis/releases/download/win-2.8.2400/Redis-x64-2.8.2400.zip #ÏÂÔØ
-rar x-t-o-p Redis-x64-2.8.2400.zip   #½âÑ¹
-cd Redis-x64-2.8.2400            #µ½redisÄ¿Â¼
-redis-server redis.windows.conf  #Æô¶¯·þÎñ£¬ÐèÒªÏÈÐÞ¸ÄÅäÖÃÎÄ¼þ£¬Òª²»È»»á³ö´í
-redis-cli -h ${ip} -p ${port}    #¿Í»§¶ËÁ¬½Ó£¬ipÄ¬ÈÏÎª127.0.0.1£¬portÄ¬ÈÏÎª6379
+wget https://github.com/MSOpenTech/redis/releases/download/win-3.0.501/Redis-x64-3.0.501.zip #ä¸‹è½½
+rar x-t-o-p Redis-x64-2.8.2400.zip   #è§£åŽ‹
+cd Redis-x64-2.8.2400            #åˆ°redisç›®å½•
+redis-server redis.windows.conf  #å¯åŠ¨æœåŠ¡ï¼Œéœ€è¦å…ˆä¿®æ”¹é…ç½®æ–‡ä»¶ï¼Œè¦ä¸ç„¶ä¼šå‡ºé”™
+redis-cli -h ${ip} -p ${port}    #å®¢æˆ·ç«¯è¿žæŽ¥ï¼Œipé»˜è®¤ä¸º127.0.0.1ï¼Œporté»˜è®¤ä¸º6379
 ```
 
-- 1,2²½ÃüÁî²»Ò»¶¨¿ÉÒÔÊ¹ÓÃ£¬Ö»ÊÇÎªÁËËµÃ÷²½Öè£»
-- 3,4²½±ØÐëÒªÒÔ¹ÜÀíÔ±È¨ÏÞÔËÐÐ
-- ÒÔÉÏÖ»ÊÇÎªÁËËµÃ÷¿ìËÙ¿ªÊ¼µÄ²½Öè£¬¾ßÌåÏ¸½ÚÏÂÃæ½éÉÜ¡£
+- 1,2æ­¥å‘½ä»¤ä¸ä¸€å®šå¯ä»¥ä½¿ç”¨ï¼Œåªæ˜¯ä¸ºäº†è¯´æ˜Žæ­¥éª¤ï¼›
+- 3,4æ­¥å¿…é¡»è¦ä»¥ç®¡ç†å‘˜æƒé™è¿è¡Œ
+- ä»¥ä¸Šåªæ˜¯ä¸ºäº†è¯´æ˜Žå¿«é€Ÿå¼€å§‹çš„æ­¥éª¤ï¼Œå…·ä½“ç»†èŠ‚ä¸‹é¢ä»‹ç»ã€‚
 
-## °²×°
+## ä¸‹è½½å®‰è£…
+
+å®‰è£…å¾ˆç®€å•ï¼Œåœ¨[githubä¸Šé¡¹ç›®åœ°å€releases](https://github.com/MSOpenTech/redis/releases)
+ä¸­æ‰¾åˆ°åˆé€‚çš„ç‰ˆæœ¬ä¸‹è½½ã€‚
+
+- å¯ä»¥é€‰æ‹©`.msi`æ ¼å¼çš„å¾®è½¯æ ¼å¼å®‰è£…åŒ…,å®‰è£…éžå¸¸æ–¹ä¾¿ï¼ŒåŒå‡»æ ¹æ®æç¤ºä¸‹ä¸€æ­¥å³å¯ã€‚å¯ä»¥é€‰æ‹©æ·»åŠ åˆ°çŽ¯å¢ƒå˜é‡ä¸­ï¼Œå ç”¨æœ€å¤§å†…å­˜ç­‰ã€‚
+- å¦‚æžœä¸‹è½½`.zip`æ ¼å¼çš„åŽ‹ç¼©æ–‡ä»¶,æœ€æ–°3.0ç‰ˆæœ¬åŒæ ·æ–¹ä¾¿ï¼Œåªè¦è§£åŽ‹ç¼©å³å¯ã€‚å¦‚éœ€è®¾ç½®åˆ°çŽ¯å¢ƒå˜é‡éœ€è¦è‡ªè¡Œè®¾ç½®ã€‚
+
+
+## è¿è¡ŒæœåŠ¡ç«¯
+
+æˆ‘çš„ç”µè„‘æ“ä½œç³»ç»Ÿæ˜¯64ä½win8.1ï¼Œä¸‹è½½çš„redisç‰ˆæœ¬æ˜¯3.0.501ã€‚
+
+```
+# ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œcmd
+C:\windows\system32>d:
+D:\>cd "Program Files\Redis-x64-3.0.501"
+D:\Program Files\Redis-x64-3.0.501>redis-server redis.windows.conf
+                _._
+           _.-``__ ''-._
+      _.-``    `.  `_.  ''-._           Redis 3.0.501 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 15888
+  `-._    `-._  `-./  _.-'    _.-'
+ |`-._`-._    `-.__.-'    _.-'_.-'|
+ |    `-._`-._        _.-'_.-'    |           http://redis.io
+  `-._    `-._`-.__.-'_.-'    _.-'
+ |`-._`-._    `-.__.-'    _.-'_.-'|
+ |    `-._`-._        _.-'_.-'    |
+  `-._    `-._`-.__.-'_.-'    _.-'
+      `-._    `-.__.-'    _.-'
+          `-._        _.-'
+              `-.__.-'
+			  
+[15888] 01 Mar 23:17:05.883 # Server started, Redis version 3.0.501
+[15888] 01 Mar 23:17:05.883 * DB loaded from disk: 0.000 seconds
+[15888] 01 Mar 23:17:05.883 * The server is now ready to accept connections on p
+ort 6379
+```
+
+## å®¢æˆ·ç«¯è¿žæŽ¥
+
+```
+# ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œcmd
+#é»˜è®¤ä¼šè¿žæŽ¥æœ¬åœ°6379ç«¯å£çš„æœåŠ¡
+C:\windows\system32>redis-cli    #rediså®‰è£…è·¯å¾„å·²æ·»åŠ åˆ°çŽ¯å¢ƒå˜é‡ä¸­
+127.0.0.1:6379> ping
+PONG
+127.0.0.1:6379>
+
+#å¦‚æžœè¦æŒ‡å®šipå’Œç«¯å£
+C:\windows\system32>redis-cli -h ${your serve ip} -p ${port}
+your server ip:port> ping
+(error) ERR operation not permitted  #è¿™ä¸ªæ˜¯å› ä¸ºè®¾ç½®äº†ç™»å½•éœ€è¦å¯†ç éªŒè¯
+your server ip:port> auth ${your password}
+OK
+your server ip:port> ping
+PONG
+your server ip:port>
+```
+
+## redisç›¸å…³å‘½ä»¤
+
+
+
+
+
 
 
 
