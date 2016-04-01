@@ -25,6 +25,10 @@
 - [log4j2：log4j的升级版，内部代码有很大部分重构](https://logging.apache.org/log4j/2.x/)
 - [slf4j：简单日志门面，主要定义日志的接口](http://www.slf4j.org/)
 
+6.java学习
+- [java官网](http://docs.oracle.com/javase/tutorial/java/concepts/object.html):虽然官网的样式不怎么样，但是内容还是挺不错的，准备从SE到EE甚至是JVM都系统的了解下
+
+
 ## 观望的技术或项目
 1.play框架，网上很多赞美play1.x和吐槽2.x的文章，在国内不是很流行
 - [play framework官网](https://www.playframework.com/)
