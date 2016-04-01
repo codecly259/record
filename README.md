@@ -26,7 +26,7 @@
 - [slf4j：简单日志门面，主要定义日志的接口](http://www.slf4j.org/)
 
 6.java学习
-- [java官网](http://docs.oracle.com/javase/tutorial/java/concepts/object.html):虽然官网的样式不怎么样，但是内容还是挺不错的，准备从SE到EE甚至是JVM都系统的了解下
+- [java官网](http://docs.oracle.com/javase/tutorial/java/concepts/object.html):虽然官网文档的样式不怎么样，但是内容还是挺不错的，准备从SE到EE甚至是JVM都系统的了解下
 
 
 ## 观望的技术或项目
