@@ -14,6 +14,7 @@
 - [nodejs官网](https://nodejs.org/en/)
 - [nw.js(之前也叫node-webkit)官网:用html和js开发跨平台桌面应用](http://nwjs.io/)
 - [hex:有道开发的使用 HTML5 与 Node.js 构建桌面应用解决方案。与nw.js类似](http://hex.youdao.com/zh-cn/index.html)
+- [cordova:跨平台移动应用开发](https://cordova.apache.org/)
 
 4.snmp，简单网络管理协议（Simple Network Management Protocol）
 - [snmp4j](http://www.snmp4j.org/)
