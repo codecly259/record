@@ -19,3 +19,8 @@
 由于cordova本身是使用nodejs开发的，其插件开发也需要了解部分nodejs知识。  
 而且现在nodejs已经非常强大：可以写前台(javascript),可以写后台(nodejs)，可以开发移动端(cordova)，甚至还可以跨平台开发桌面端。  
 既然这么火，而且这么有用，没有理由不去了解。
+
+## android
+
+对android早就很感兴趣，以前也学习一段时间。上面有提到对cordova的学习，在学习cordova的同时可以了解下部分android的知识，作为扩展。  
+在时间允许的情况下，还是希望对android有个系统的了解。
