@@ -24,3 +24,7 @@
 
 对android早就很感兴趣，以前也学习一段时间。上面有提到对cordova的学习，在学习cordova的同时可以了解下部分android的知识，作为扩展。  
 在时间允许的情况下，还是希望对android有个系统的了解。
+
+## libGDX
+
+一个用java开发的游戏引擎。可以开发跨平台的游戏，主要包括desktop,android,ios,html。
