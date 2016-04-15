@@ -84,11 +84,15 @@
 ## 测试
 1.JUnit：java单元测试框架
 - [JUnit官网](http://junit.org/)
+- [spring test:在JUnit上的对spring项目的测试扩展](https://docs.spring.io/spring/docs/current/spring-framework-reference/html/integration-testing.html)
+- [mockito:单元测试,模拟对象](http://mockito.org/)
+- [textng:java自动化测试](http://testng.org/doc/index.html)
 
 2.Selenium：一个用于web自动化测试的工具集
 - [Selenium官网(*需要翻墙*)](http://www.seleniumhq.org/)
 - [Selenium Tutorial - Get started using Java](https://www.airpair.com/selenium/posts/selenium-tutorial-with-java)
 - [我们常用的功能自动化测试工具 **Selenium篇**](http://www.51testing.com/zhuanti/selenium.html)
+
 
 ## 社区
 1.Infoq
