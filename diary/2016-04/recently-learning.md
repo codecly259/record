@@ -5,6 +5,8 @@
 跟着spring 文档和马士兵的视频把spring整体学习一遍，对其中的概念和原理要有一定的理解。  
 并对java web相关的知识再深入了解一番，如 servlet ,jsp等。
 
+相关的单元测试从框架:junit,spring-test,mockito.
+
 ## gradle
 
 最开始是通过android studio了解到的，目前很火的构建工具，可能会替代maven成为下一代构建工具。  
