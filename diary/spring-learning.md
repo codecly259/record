@@ -6,6 +6,14 @@
 
 ## spring 整合 hibernate
 
+事务管理的配置
+
+1. 加入annotation.xsd
+2. 加入txManager bean
+3. <tx:annotation-driven>
+4. 在需要事务的地方加@Transactional
+5. 需要注意使用SessionFactory.getCurrentSession ，不要使用openSession
+
 dataSource配置
 
 <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
