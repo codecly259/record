@@ -14,6 +14,15 @@
 4. 在需要事务的地方加@Transactional
 5. 需要注意使用SessionFactory.getCurrentSession ，不要使用openSession
 
+hibernate template
+i. 使用了设计模式：模板方法
+ii. Callback：回调/钩子函数
+iii. 使用步骤
+	1. 在spring中初始化HibernateTemplate,注入SessionFactory
+	2. DAO中注入HibernateTemplate
+	3. save写getHibernateTemplate.save();
+
+
 dataSource配置
 
 <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
