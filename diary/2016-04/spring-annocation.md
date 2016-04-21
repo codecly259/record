@@ -1,22 +1,22 @@
-## Spring ×¢½â
+## Spring æ³¨è§£
 
 1. @Autowired
 
-¿ÉÒÔÔÚ³ÉÔ±±äÁ¿¡¢·½·¨¡¢¹¹Ôì·½·¨ÖÐÌí¼Ó×¢½âÒÔ×¢ÈëÒÀÀµ¶ÔÏó¡£Ä¬ÈÏÊÇ°´ÕÕÀà£¨byType£©À´Æ¥Åäbean¡£¹¹Ôì·½·¨ºÍ³ÉÔ±±äÁ¿¿ÉÒÔÊÇË½ÓÐµÄ¡£
-@Qualifier ÊÇÓÃÀ´ÅäºÏ@Autowired×¢½âÀ´ÏÞ¶¨beanµÄÃû³Æ£¬Ëü¿ÉÒÔ·ÅÔÚ³ÉÔ±±äÁ¿ÖÐ£¬¹¹Ôì·½·¨ºÍsetter·½·¨µÄ²ÎÊýÉÏ¡£
+å¯ä»¥åœ¨æˆå‘˜å˜é‡ã€æ–¹æ³•ã€æž„é€ æ–¹æ³•ä¸­æ·»åŠ æ³¨è§£ä»¥æ³¨å…¥ä¾èµ–å¯¹è±¡ã€‚é»˜è®¤æ˜¯æŒ‰ç…§ç±»ï¼ˆbyTypeï¼‰æ¥åŒ¹é…beanã€‚æž„é€ æ–¹æ³•å’Œæˆå‘˜å˜é‡å¯ä»¥æ˜¯ç§æœ‰çš„ã€‚
+@Qualifier æ˜¯ç”¨æ¥é…åˆ@Autowiredæ³¨è§£æ¥é™å®šbeançš„åç§°ï¼Œå®ƒå¯ä»¥æ”¾åœ¨æˆå‘˜å˜é‡ä¸­ï¼Œæž„é€ æ–¹æ³•å’Œsetteræ–¹æ³•çš„å‚æ•°ä¸Šã€‚
 
 	@Autowired
 	@Qualifier("userService")
 	private UserService userService;
 
-2. @Resource £¨JSR-250±ê×¼×¢½â£¬ÍÆ¼öÊ¹ÓÃËüÀ´´úÌæSpring×¨ÓÐµÄ@Autowired×¢½â£© 
-ºÍ@AutowiredÀàËÆ£¬²»¹ýResourceÄ¬ÈÏ°´ÕÕÃû³Æ(byName)×¢ÈëÒÀÀµbean£¬µ±Ã»ÓÐÆ¥Åäµ½Ãû³ÆÊ±ÔÙ°´ÕÕÀà(byType)À´×¢ÈëÒÀÀµbean¡£
-@Resource ÓÐÁ½¸öÊôÐÔÊÇ±È½ÏÖØÒªµÄ£¬·Ö±ðÊÇ name ºÍ type£¬Spring ½«@Resource ×¢ÊÍµÄ name ÊôÐÔ½âÎöÎª Bean µÄÃû×Ö£¬¶ø type ÊôÐÔÔò½âÎöÎª Bean µÄÀàÐÍ¡£ËùÒÔÈç¹ûÊ¹ÓÃ name ÊôÐÔ£¬ÔòÊ¹ÓÃ byName µÄ×Ô¶¯×¢Èë²ßÂÔ£¬¶øÊ¹ÓÃ type ÊôÐÔÊ±ÔòÊ¹ÓÃ byType ×Ô¶¯×¢Èë²ßÂÔ¡£Èç¹û¼È²»Ö¸¶¨ name Ò²²»Ö¸¶¨ type ÊôÐÔ£¬ÕâÊ±½«Í¨¹ý·´Éä»úÖÆÊ¹ÓÃ byName ×Ô¶¯×¢Èë²ßÂÔ¡£
+2. @Resource ï¼ˆJSR-250æ ‡å‡†æ³¨è§£ï¼ŒæŽ¨èä½¿ç”¨å®ƒæ¥ä»£æ›¿Springä¸“æœ‰çš„@Autowiredæ³¨è§£ï¼‰ 
+å’Œ@Autowiredç±»ä¼¼ï¼Œä¸è¿‡Resourceé»˜è®¤æŒ‰ç…§åç§°(byName)æ³¨å…¥ä¾èµ–beanï¼Œå½“æ²¡æœ‰åŒ¹é…åˆ°åç§°æ—¶å†æŒ‰ç…§ç±»(byType)æ¥æ³¨å…¥ä¾èµ–beanã€‚
+@Resource æœ‰ä¸¤ä¸ªå±žæ€§æ˜¯æ¯”è¾ƒé‡è¦çš„ï¼Œåˆ†åˆ«æ˜¯ name å’Œ typeï¼ŒSpring å°†@Resource æ³¨é‡Šçš„ name å±žæ€§è§£æžä¸º Bean çš„åå­—ï¼Œè€Œ type å±žæ€§åˆ™è§£æžä¸º Bean çš„ç±»åž‹ã€‚æ‰€ä»¥å¦‚æžœä½¿ç”¨ name å±žæ€§ï¼Œåˆ™ä½¿ç”¨ byName çš„è‡ªåŠ¨æ³¨å…¥ç­–ç•¥ï¼Œè€Œä½¿ç”¨ type å±žæ€§æ—¶åˆ™ä½¿ç”¨ byType è‡ªåŠ¨æ³¨å…¥ç­–ç•¥ã€‚å¦‚æžœæ—¢ä¸æŒ‡å®š name ä¹Ÿä¸æŒ‡å®š type å±žæ€§ï¼Œè¿™æ—¶å°†é€šè¿‡åå°„æœºåˆ¶ä½¿ç”¨ byName è‡ªåŠ¨æ³¨å…¥ç­–ç•¥ã€‚
 
-3. @PostConstruct£¨JSR-250£© 
-ÔÚ·½·¨ÉÏ¼ÓÉÏ×¢½â@PostConstruct£¬Õâ¸ö·½·¨¾Í»áÔÚBean³õÊ¼»¯Ö®ºó±»SpringÈÝÆ÷Ö´ÐÐ£¨×¢£ºBean³õÊ¼»¯°üÀ¨£¬ÊµÀý»¯Bean£¬²¢×°ÅäBeanµÄÊôÐÔ£¨ÒÀÀµ×¢Èë£©£©¡£ 
+3. @PostConstructï¼ˆJSR-250ï¼‰ 
+åœ¨æ–¹æ³•ä¸ŠåŠ ä¸Šæ³¨è§£@PostConstructï¼Œè¿™ä¸ªæ–¹æ³•å°±ä¼šåœ¨Beanåˆå§‹åŒ–ä¹‹åŽè¢«Springå®¹å™¨æ‰§è¡Œï¼ˆæ³¨ï¼šBeanåˆå§‹åŒ–åŒ…æ‹¬ï¼Œå®žä¾‹åŒ–Beanï¼Œå¹¶è£…é…Beançš„å±žæ€§ï¼ˆä¾èµ–æ³¨å…¥ï¼‰ï¼‰ã€‚ 
 
-ËüµÄÒ»¸öµäÐÍµÄÓ¦ÓÃ³¡¾°ÊÇ£¬µ±ÄãÐèÒªÍùBeanÀï×¢ÈëÒ»¸öÆä¸¸ÀàÖÐ¶¨ÒåµÄÊôÐÔ£¬¶øÄãÓÖÎÞ·¨¸´Ð´¸¸ÀàµÄÊôÐÔ»òÊôÐÔµÄsetter·½·¨Ê±£¬Èç£º
+å®ƒçš„ä¸€ä¸ªå…¸åž‹çš„åº”ç”¨åœºæ™¯æ˜¯ï¼Œå½“ä½ éœ€è¦å¾€Beané‡Œæ³¨å…¥ä¸€ä¸ªå…¶çˆ¶ç±»ä¸­å®šä¹‰çš„å±žæ€§ï¼Œè€Œä½ åˆæ— æ³•å¤å†™çˆ¶ç±»çš„å±žæ€§æˆ–å±žæ€§çš„setteræ–¹æ³•æ—¶ï¼Œå¦‚ï¼š
 
 public class UserDaoImpl extends HibernateDaoSupport implements UserDao {    
     private SessionFactory mySessionFacotry;    
@@ -31,9 +31,12 @@ public class UserDaoImpl extends HibernateDaoSupport implements UserDao {
     ...    
 }    
 
-4. @PreDestroy£¨JSR-250£© 
-ÔÚ·½·¨ÉÏ¼ÓÉÏ×¢½â@PreDestroy£¬Õâ¸ö·½·¨¾Í»áÔÚSpring ÈÝÆ÷¹Ø±ÕÇ°Ïú»ÙBoss Bean µÄÊ±ºò±»´¥·¢Ö´ÐÐ¡£ÓÉÓÚÎÒÃÇµ±Ç°»¹Ã»ÓÐÐèÒªÓÃµ½ËüµÄ³¡¾°£¬ÕâÀï²»²»È¥ÑÝÊ¾¡£ÆäÓÃ·¨Í¬@PostConstruct¡£
+4. @PreDestroyï¼ˆJSR-250ï¼‰ 
+åœ¨æ–¹æ³•ä¸ŠåŠ ä¸Šæ³¨è§£@PreDestroyï¼Œè¿™ä¸ªæ–¹æ³•å°±ä¼šåœ¨Spring å®¹å™¨å…³é—­å‰é”€æ¯Boss Bean çš„æ—¶å€™è¢«è§¦å‘æ‰§è¡Œã€‚ç”±äºŽæˆ‘ä»¬å½“å‰è¿˜æ²¡æœ‰éœ€è¦ç”¨åˆ°å®ƒçš„åœºæ™¯ï¼Œè¿™é‡Œä¸ä¸åŽ»æ¼”ç¤ºã€‚å…¶ç”¨æ³•åŒ@PostConstructã€‚
 
+
+
+spring mvc ä½¿ç”¨
 
 
 
