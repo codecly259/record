@@ -153,7 +153,7 @@
 - typecho
 
 2.java博客系统
-- solo
+- solo(update)
 
 3.静态博客
 - [jekyll:使用ruby开发的静态博客生成工具](http://jekyllrb.com/)
