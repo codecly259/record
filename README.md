@@ -159,3 +159,12 @@
 - [jekyll:使用ruby开发的静态博客生成工具](http://jekyllrb.com/)
 - [octopress:基于jekyll的静态博客构建框架](http://octopress.org/)
 - [hexo:简单、快速、强大的Node.js静态博客框架](https://hexo.io/)
+
+## 内网穿透(让互联网可以访问到本机,测试微信公众号开发非常有用)
+
+1.ngrok 需要翻墙，并在官网注册一个账号
+[ngrok官网](https://ngrok.com/)  
+[npm网站中的ngrok地址](https://www.npmjs.com/package/ngrok)
+
+2.花生壳
+
