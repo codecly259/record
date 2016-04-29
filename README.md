@@ -160,16 +160,7 @@
 - [octopress:基于jekyll的静态博客构建框架](http://octopress.org/)
 - [hexo:简单、快速、强大的Node.js静态博客框架](https://hexo.io/)
 
-<<<<<<< HEAD
-## 内网穿透(让互联网可以访问到本机,测试微信公众号开发非常有用)
 
-1.ngrok 需要翻墙，并在官网注册一个账号
-[ngrok官网](https://ngrok.com/)  
-[npm网站中的ngrok地址](https://www.npmjs.com/package/ngrok)
-
-2.花生壳
-
-=======
 ## 开源中国中的几个关注项目
 1. web相关
 - tiny : http://git.oschina.net/tinyframework/tiny
@@ -177,4 +168,11 @@
 - smart-framework : http://git.oschina.net/huangyong/smart-framework
 - jfinal : http://git.oschina.net/jfinal/jfinal
 - snakerflow : http://git.oschina.net/yuqs/snakerflow
->>>>>>> ae693a8a37a3748e2b76606e29f031dbebd6545d
+
+## 内网穿透(让互联网可以访问到本机,测试微信公众号开发非常有用)
+
+1.ngrok 需要翻墙，并在官网注册一个账号
+[ngrok官网](https://ngrok.com/)  
+[npm网站中的ngrok地址](https://www.npmjs.com/package/ngrok)
+
+2.花生壳
