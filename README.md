@@ -166,13 +166,13 @@
 - tiny : http://git.oschina.net/tinyframework/tiny
 - springrain : http://git.oschina.net/chunanyong/springrain
 - smart-framework : http://git.oschina.net/huangyong/smart-framework
-- jfinal : http://git.oschina.net/jfinal/jfinal
+- jfinal(jfinal-weixin) : http://git.oschina.net/jfinal/jfinal
 - snakerflow : http://git.oschina.net/yuqs/snakerflow
 
 ## 内网穿透(让互联网可以访问到本机,测试微信公众号开发非常有用)
 
-1.ngrok 需要翻墙，并在官网注册一个账号
+1.ngrok 需要翻墙，并在官网注册一个账号  
 [ngrok官网](https://ngrok.com/)  
 [npm网站中的ngrok地址](https://www.npmjs.com/package/ngrok)
 
-2.花生壳
+2.花生壳(需要注册账号)
