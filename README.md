@@ -60,6 +60,10 @@
 - [Pivotal Cloud Foundry官网](http://pivotal.io/platform)
 - [Cloud Foundry 中文基础文档](http://cloudfoundry-doc.csdn.net/)
 
+5.国内的一些云平台
+- 阿里云,百度云
+- SAE,GAE google的有免费的java环境，非常好。但是在国内需要翻墙才能访问应用。
+
 ## 数据库
 1.oracle
 
