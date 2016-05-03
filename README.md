@@ -178,5 +178,6 @@
 1.ngrok 需要翻墙，并在官网注册一个账号  
 [ngrok官网](https://ngrok.com/)  
 [npm网站中的ngrok地址](https://www.npmjs.com/package/ngrok)
+国内大神搭建的ngrok服务: http://www.qydev.com/    http://natapp.cn/
 
 2.花生壳(需要注册账号)
