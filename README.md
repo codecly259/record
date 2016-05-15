@@ -12,7 +12,7 @@
 
 3.node.js
 - [nodejs官网](https://nodejs.org/en/)
-- [node]
+- [node.js包教不包会](https://github.com/alsotang/node-lessons)
 - [nw.js(之前也叫node-webkit)官网:用html和js开发跨平台桌面应用](http://nwjs.io/)
 - [hex:有道开发的使用 HTML5 与 Node.js 构建桌面应用解决方案。与nw.js类似](http://hex.youdao.com/zh-cn/index.html)
 - [cordova:跨平台移动应用开发](https://cordova.apache.org/)
