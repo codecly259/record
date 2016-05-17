@@ -177,9 +177,10 @@
 ## 内网穿透(让互联网可以访问到本机,测试微信公众号开发非常有用)
 
 1.ngrok 需要翻墙，并在官网注册一个账号  
-[ngrok官网](https://ngrok.com/)  
-[npm网站中的ngrok地址](https://www.npmjs.com/package/ngrok)  
-国内大神搭建的ngrok服务: http://www.qydev.com/    http://natapp.cn/
+- [ngrok官网](https://ngrok.com/)  
+- [npm网站中的ngrok地址](https://www.npmjs.com/package/ngrok)  
+- 国内大神搭建的ngrok服务: http://www.qydev.com/    http://natapp.cn/   http://www.ittun.com/
+- [搭建自己的ngrok服务](http://tonybai.com/2015/03/14/selfhost-ngrok-service/)
 
 2.花生壳(需要注册账号)
 
