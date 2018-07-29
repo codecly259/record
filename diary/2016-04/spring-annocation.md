@@ -18,18 +18,18 @@
 
 它的一个典型的应用场景是，当你需要往Bean里注入一个其父类中定义的属性，而你又无法复写父类的属性或属性的setter方法时，如：
 
-public class UserDaoImpl extends HibernateDaoSupport implements UserDao {    
-    private SessionFactory mySessionFacotry;    
-    @Resource    
-    public void setMySessionFacotry(SessionFactory sessionFacotry) {    
-        this.mySessionFacotry = sessionFacotry;    
-    }    
-    @PostConstruct    
-    public void injectSessionFactory() {    
-        super.setSessionFactory(mySessionFacotry);    
-    }    
-    ...    
-}    
+	public class UserDaoImpl extends HibernateDaoSupport implements UserDao {    
+	    private SessionFactory mySessionFacotry;    
+	    @Resource    
+	    public void setMySessionFacotry(SessionFactory sessionFacotry) {    
+		this.mySessionFacotry = sessionFacotry;    
+	    }    
+	    @PostConstruct    
+	    public void injectSessionFactory() {    
+		super.setSessionFactory(mySessionFacotry);    
+	    }    
+	    ...    
+	}    
 
 4. @PreDestroy（JSR-250） 
 在方法上加上注解@PreDestroy，这个方法就会在Spring 容器关闭前销毁Boss Bean 的时候被触发执行。由于我们当前还没有需要用到它的场景，这里不不去演示。其用法同@PostConstruct。
